@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/29/user/347883).
-* Наставник: `Неизвестно`.
+* Студент: [Лидия Кудрявцева](https://up.htmlacademy.ru/htmlcss/29/user/347883).
+* Наставник: `Евгений Алипкин` (https://htmlacademy.ru/profile/ealipkin).
 
 ---
 
