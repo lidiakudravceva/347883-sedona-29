@@ -1,0 +1,268 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-extra-dark: #333333;
+  --basic-dark: #766357;
+  --basic-grey: #888888;;
+  --basic-blue: #81B3D2;
+  --basic-extra-light: #EEEEEE;
+  --basic-white: #ffffff;
+  --special: #604E43;
+  --special-activ: #503E33;
+  --basic-blue-hover: #669EC0;
+  --basic-blue-activ: #5496BD;
+}
+
+/* Global */
+
+body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-grey);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-blask);
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  color: var(--basic-dark);
+  background-color: var(--basic-white);
+}
+
+/* User navigation */
+
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: var(--basic-blue);
+  background-color: var(--basic-white);
+}
+
+.site-navigation a:active {
+  color: var(--basic-black);
+  opacity: 0,3;
+  background-color: var(--basic-white);
+}
+
+
+/* welcome-sedona */
+
+.welcome-sedona {
+  width: 1200px;
+  height: 509px;
+  background-image: url("../img/sedonafoto.jpg") no-repeat, url("../img/poligon.png") no-repeat;
+  background-color: var(--basic-dark);
+}
+
+.welcome-sedona-img {
+  width: 457px;
+  height: 351px;
+}
+
+/* sedona-best */
+
+.sedona-slogan {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+.sedona-text {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-extra-dark);
+  background-color: var(--basic-white);
+}
+
+/* advantage */
+
+.advantage {
+  color: var(--basic-white);
+  background-color: var(--basic-blue);
+}
+
+.advantage-header {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.advantage-num,
+.advantage-text {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.infrastructure-list {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.infrastructure-list-two {
+  background-color: var(--basic-extra-light);
+}
+
+.infrastructure-header {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.infrastructure-num {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-extra-dark);
+}
+
+.infrastructure-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-extra-dark);
+}
+
+/* choos-hotel */
+
+choos-hotel-header {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.choos-hotel-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--basic-extra-dark);
+  background-color: var(--basic-white);
+}
+
+/* interactive-map */
+
+.interactive-map {
+  width: 1199px;
+  height: 594px;
+}
+
+/* Button */
+
+.button {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-dark);
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--basic-white);
+  background-color: var(--special);
+}
+
+.button:active {
+  color: var(--basic-white);
+  opacity: 0,3;
+  background-color: var(--special-activ);
+}
+
+
+/* Main footer */
+
+.main-footer {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.footer-contacts,
+.footer-contacts a {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+/* Social button */
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-socials {
+  list-style: none;
+}
+
+.social-button {
+  color: var(--basic-white);
+  background-color: var(--basic-blue);
+}
+
+.social-button:hover,
+.social-button:focus {
+  color: var(--basic-white);
+  background-color: var(--basic-blue-hover);
+}
+
+.social-button:active {
+  color: var(--basic-white);
+  opacity: 0,3;
+  background-color: var(--basic-blue-activ);
+}
+
+.footer-copyright{
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  color: var(--basic-blue-hover);
+  background-color: var(--basic-white);
+}
+
+.footer-copyright a:active {
+  color: var(--basic-grey);
+  background-color: var(--basic-white);
+}
