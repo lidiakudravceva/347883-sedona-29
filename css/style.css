@@ -3,15 +3,18 @@
 :root {
   --basic-black: #000000;
   --basic-extra-dark: #333333;
+  --basic-dark-dark: #666666;
   --basic-dark: #766357;
   --basic-grey: #888888;;
   --basic-blue: #81B3D2;
+  --basic-light-grey: #CACACA;
+  --basic-extra-light-grey: F2F2F2;
   --basic-extra-light: #EEEEEE;
   --basic-white: #ffffff;
   --special: #604E43;
-  --special-activ: #503E33;
+  --special-active: #503E33;
   --basic-blue-hover: #669EC0;
-  --basic-blue-activ: #5496BD;
+  --basic-blue-active: #5496BD;
 }
 
 /* Global */
@@ -20,7 +23,7 @@ body {
   min-width: 1280px;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -36,6 +39,12 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.wrapper {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Main navigation */
@@ -154,9 +163,9 @@ img {
   color: var(--basic-extra-dark);
 }
 
-/* choos-hotel */
+/* choose-hotel */
 
-choos-hotel-header {
+.choose-hotel-header {
   font-weight: bold;
   font-size: 30px;
   line-height: 24px;
@@ -164,7 +173,7 @@ choos-hotel-header {
   background-color: var(--basic-white);
 }
 
-.choos-hotel-text {
+.choose-hotel-text {
   font-size: 14px;
   line-height: 24px;
   color: var(--basic-extra-dark);
@@ -174,8 +183,115 @@ choos-hotel-header {
 /* interactive-map */
 
 .interactive-map {
-  width: 1199px;
+  width: 1200px;
   height: 594px;
+}
+
+/* choice */
+
+.choice-header {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.choice-span {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.choice-list a {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--basic-black);
+  opacity: 0,3;
+  border-bottom: 1px dashed #81B3D2;
+  background-color: var(--basic-white);
+}
+
+.choice-list a:hover,
+.choise-list a:focus {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--basic-blue);
+  border-bottom: 1px dashed #81B3D2;
+  background-color: var(--basic-white);
+}
+
+.choise-list a:active {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.choise-list a:visited {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--basic-blue);
+  background-color: var(--basic-white);
+}
+
+.pointer-up,
+.pointer-down  {
+  width: 11px;
+  height: 10px;
+  background-color: var(--basic-light-grey);
+}
+
+.pointer-up:hover,
+.pointer-down:hover {
+  background-color: var(--basic-black);
+}
+
+.pointer-up:active,
+.pointer-down:active,
+.pointer-up:visited,
+.pointer-down:visited {
+  background-color: var(--basic-blue);
+}
+
+.hotel-list-img {
+  width: 135px;
+  height: 90px;
+}
+
+.hotel-list-header {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.hotel-list-class,
+.hotel-list-cost {
+  color: var(--basic-extra-dark);
+}
+
+.hotel-list-detailed {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: var(--basic-blue);
+}
+
+.hotel-list-book {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-white);
+  background-color: var(--basic-dark);
+}
+
+.rating {
+  color: var(--bacic-dark-dark);
+  background-color: var(--basic-extra-light-grey);
 }
 
 /* Button */
@@ -202,7 +318,11 @@ choos-hotel-header {
 .button:active {
   color: var(--basic-white);
   opacity: 0,3;
-  background-color: var(--special-activ);
+  background-color: var(--special-active);
+}
+
+.star {
+  background-color: var(--basic-blue);
 }
 
 
@@ -246,10 +366,10 @@ choos-hotel-header {
 .social-button:active {
   color: var(--basic-white);
   opacity: 0,3;
-  background-color: var(--basic-blue-activ);
+  background-color: var(--basic-blue-active);
 }
 
-.footer-copyright{
+.footer-copyright {
   font-size: 14px;
   line-height: 26px;
   color: var(--basic-black);
